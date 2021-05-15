@@ -8,13 +8,6 @@ pipeline
 
 	stages
 	{
-		stage("Checkout")
-		{
-			steps
-			{
-				git url: 'https://github.com/briantlam/java-app.git'
-			}
-		}
 		stage("Build")
 		{
 			steps
